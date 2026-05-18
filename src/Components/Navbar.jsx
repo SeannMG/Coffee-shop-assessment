@@ -8,6 +8,9 @@ function Navbar() {
 
             <div>
                 <NavLink to="/">Home</NavLink>
+                <NavLink to="/shop">Shop</NavLink>
+                <NavLink to="/cart">cart</NavLink>
+
             </div>
         </nav>
     )
