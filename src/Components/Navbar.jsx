@@ -6,10 +6,11 @@ function Navbar() {
         <nav>
             <h1>Coffee R Us</h1>
 
-            <div>
-                <NavLink to="/">Home</NavLink>
-                <NavLink to="/shop">Shop</NavLink>
-                <NavLink to="/cart">cart</NavLink>
+            <div className="navbar">
+                <NavLink to="/" className='nav-link'>Home</NavLink>
+                <NavLink to="/shop" className='nav-link'>Shop</NavLink>
+                <NavLink to="/cart" className='nav-link'>cart</NavLink>
+                <NavLink to="/admin" className='nav-link'>Admin</NavLink>
 
             </div>
         </nav>
