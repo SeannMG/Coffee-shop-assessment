@@ -117,3 +117,33 @@ body {
 .card button:hover {
     background-color: darkred;
 }
+
+/* =========================
+   NAVBAR STYLING
+========================= */
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 40px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* NAV LINKS */
+.nav-link {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.2;
+}
+
+/* HOVER EFFECT */
+.nav-link:hover {
+    color: brown;
+    transform: scale(1.05);
+}
